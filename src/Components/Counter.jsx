@@ -15,6 +15,13 @@ const Counter = () => {
     return (
         <div>
             <h1>Counter: {counter1}</h1>
+            <hr />
+            <Button colorScheme="green" onClick={() => setCounter({
+                ...counter,
+                counter1: counter1 + 1
+            })}>
+                Counter +1
+            </Button>
 
         </div>
     )
