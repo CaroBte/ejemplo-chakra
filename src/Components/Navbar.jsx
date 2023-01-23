@@ -1,6 +1,7 @@
-import { Box, Flex, Text } from '@chakra-ui/layout'
+import { Box, Flex, Link, Text } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 import React from 'react'
+import { NavLink } from 'react-bootstrap'
 
 const Navbar = () => {
     return (
