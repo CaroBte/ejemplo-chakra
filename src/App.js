@@ -1,10 +1,11 @@
 import Counter from "./Components/Counter";
 import Login from "./Components/Login";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      Holi desde App.js
+      <Navbar />
       <Counter />
       <Login />
     </div>
